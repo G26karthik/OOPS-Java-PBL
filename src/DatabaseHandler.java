@@ -3,7 +3,7 @@ import java.sql.*;
 public class DatabaseHandler {
     private static final String URL = "jdbc:mysql://localhost:3306/mental_health_db";
     private static final String USER = "root";  // Adjust your username
-    private static final String PASSWORD = "Saitan26";  // Adjust your password
+    private static final String PASSWORD = "********";  // Adjust your password
 
     public Connection connect() {
         try {
